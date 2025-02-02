@@ -9,6 +9,8 @@ urlpatterns = [
         'api/',
         include('api.urls', namespace='vps')
     ),
+    path('api/auth/', include('djoser.urls')),
+    path('api/auth/', include('djoser.urls.jwt')),
 ]
 
 if settings.DEBUG:
