@@ -143,3 +143,4 @@ python3 manage.py test
 ### Проект разработала:
 
 Карпова Е.М. - https://github.com/karpova-el-m
+Telegram - @karpova_el_m
